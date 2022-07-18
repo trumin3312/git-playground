@@ -2,7 +2,7 @@ name: yes24_crawler
 
 on:
   schedule:
-    - cron: '40 1 * * *'
+    - cron: '40 7 * * *'
 
 jobs:
   build:
@@ -20,5 +20,3 @@ jobs:
     - name: Run main.py
       run: |
         python main.py
-      env:
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
