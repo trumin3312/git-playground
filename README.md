@@ -1,2 +1,2 @@
 # git-playground
-07/18 Action 써보기
+07/18 [Actions] 사용해보기
